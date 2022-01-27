@@ -1,0 +1,12 @@
+.input {
+    display: flex;
+    flex-direction: row;
+}
+
+.input__input {
+    flex: 1;
+}
+
+.input__input_error {
+    background-color: rgb(255, 241, 241) !important;
+}

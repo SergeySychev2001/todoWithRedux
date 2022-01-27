@@ -1,0 +1,33 @@
+.list-item{
+    padding: .5rem;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-item:last-child{
+    border-bottom: none;
+}
+
+.list-item__text {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.list-item__text_done {
+    text-decoration: line-through;
+}
+
+.list-item__btns {
+}
+
+.list-item__btns .btns__btn{
+    font-size: 17px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.list-item__btns .btns__btn:last-child{
+    margin-right: 0px;
+}
